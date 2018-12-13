@@ -4,10 +4,7 @@ setopt EXTENDED_GLOB
 export YHOME="{{yhome}}"
 export PATH="$YHOME/.bin:$PATH"
 
-_libs=(
-)
-
-_plugs=(
+_addons=(
     https://github.com/LXTechnic/yup-tool.git
 )
 
