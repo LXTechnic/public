@@ -13,3 +13,7 @@ source $YHOME/.autoload
 
 ZSH_THEME=lx
 yup oh-my-style https://raw.githubusercontent.com/LXTechnic/public/master/zsh-themes/lx.zsh-theme
+
+# for freebsd console
+bindkey "\e[H" beginning-of-line
+bindkey "\e[F" end-of-line
