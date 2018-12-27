@@ -6,6 +6,7 @@ export PATH="$YHOME/.bin:$PATH"
 
 _addons=(
     https://github.com/LXTechnic/yup-tool.git
+    git@codehub.devcloud.huaweicloud.com:LXTech/byrgenwerth.git
 )
 
 source $YHOME/yup.zsh
