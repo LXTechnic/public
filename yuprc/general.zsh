@@ -17,3 +17,7 @@ yup oh-my-style https://raw.githubusercontent.com/LXTechnic/public/master/zsh-th
 # for freebsd console
 bindkey "\e[H" beginning-of-line
 bindkey "\e[F" end-of-line
+
+# for deno
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
